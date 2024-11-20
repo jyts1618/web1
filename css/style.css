@@ -1,0 +1,43 @@
+.card{
+    transition: 0.3s;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    transform: scale(1);
+}
+
+.text-wrap{
+    padding: 20px;
+}
+
+.text-wrap h1{
+
+}
+
+.text-wrap p{
+
+}
+
+figure{
+    position: relative;
+}
+
+figure img{
+    width: 100%;
+}
+
+.play-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #004fff url(../img/icon-play.png) center no-repeat;
+    background-size: 20px;
+    z-index: 2;
+}
